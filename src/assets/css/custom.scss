@@ -1,0 +1,59 @@
+/* ============================== 
+#imports 
+============================== */
+@import "./colors";
+@import "./globalStyle";
+@import "./navbar";
+@import "./pageStyle";
+
+/* ============================== 
+#main layout
+============================== */
+.app-wrap {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* ============================== 
+#footer
+============================== */
+.footer-con {
+  @include flexCenter(10vh);
+  background-color: $bgColor;
+}
+
+/* ============================== 
+#personal info card
+============================== */
+.personal-info-card {
+  border-left: 2.5px solid $borderColor;
+  border-right: 2.5px solid $borderColor;
+  h1 {
+    font-size: 1.1em;
+    font-weight: 1000;
+    white-space: nowrap;
+  }
+  h2 {
+    font-size: 1em;
+  }
+}
+
+/* ============================== 
+#skill card
+============================== */
+.skill-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  img {
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  h5 {
+    font-weight: 800;
+  }
+}

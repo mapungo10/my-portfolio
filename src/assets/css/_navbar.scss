@@ -1,0 +1,69 @@
+/* ============================== 
+#navbar
+============================== */
+.dp-con {
+  @include flexCenter(50vh);
+  background-color: $bgColor;
+  img {
+    width: 12em;
+    height: 14em;
+    object-fit: cover;
+    border-radius: 20%;
+    border: 2.5px solid $borderColor;
+    padding: 2px;
+    margin-top: 4em;
+  }
+  @media (max-width: 768px) {
+    @include flexCenter(35vh);
+    img {
+      width: 10em;
+      height: 12em;
+      margin-top: 0em;
+    }
+  }
+}
+.active {
+  background-color: $mainColor !important;
+  color: #fff !important;
+}
+.nav-link-con {
+  height: 50vh;
+  background-color: $bgColor;
+  .nav-link {
+    display: flex;
+    font-weight: bold;
+    color: $mainColor;
+    background-color: $bgColor;
+    .link-icon {
+      font-size: 1.3em;
+      position: relative;
+      left: 0;
+      bottom: 2px;
+      margin-right: 8px;
+    }
+  }
+  .nav-link:hover {
+    color: $mainColor;
+  }
+  .list-group-item {
+    background-color: $bgColor;
+  }
+  .list-group-item::before {
+    content: "";
+    transform: scale(0);
+  }
+  .list-group-item:hover {
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      left: 5px;
+      right: 5px;
+      bottom: 0;
+      height: 2px;
+      background-color: $borderColor;
+      transform: scale(1);
+      transition: all 0.5s;
+    }
+  }
+}

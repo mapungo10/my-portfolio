@@ -1,0 +1,302 @@
+/* ============================== 
+#imports 
+============================== */
+/* ============================== 
+#variables 
+============================== */
+/* ============================== 
+#global style
+============================== */
+body {
+  background-color: #f7f7f7 !important;
+}
+
+.vh-100 {
+  height: 100vh;
+}
+
+.custom-btn {
+  background-color: #00cccc;
+  color: #fff;
+  font-weight: bold;
+}
+
+.custom-btn:hover {
+  background-color: #00cccc;
+}
+
+.page-content-con {
+  height: 77vh;
+  overflow-y: auto;
+  background-color: #f7f7f7;
+}
+
+.sec-hd {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #00cccc;
+}
+
+/* ============================== 
+#navbar
+============================== */
+.dp-con {
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #000000;
+}
+
+.dp-con img {
+  width: 12em;
+  height: 14em;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20%;
+  border: 2.5px solid #00cccc;
+  padding: 2px;
+  margin-top: 4em;
+}
+
+@media (max-width: 768px) {
+  .dp-con {
+    height: 35vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .dp-con img {
+    width: 10em;
+    height: 12em;
+    margin-top: 0em;
+  }
+}
+
+.active {
+  background-color: #00cccc !important;
+  color: #fff !important;
+}
+
+.nav-link-con {
+  height: 50vh;
+  background-color: #000000;
+}
+
+.nav-link-con .nav-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: bold;
+  color: #00cccc;
+  background-color: #000000;
+}
+
+.nav-link-con .nav-link .link-icon {
+  font-size: 1.3em;
+  position: relative;
+  left: 0;
+  bottom: 2px;
+  margin-right: 8px;
+}
+
+.nav-link-con .nav-link:hover {
+  color: #00cccc;
+}
+
+.nav-link-con .list-group-item {
+  background-color: #000000;
+}
+
+.nav-link-con .list-group-item::before {
+  content: "";
+  -webkit-transform: scale(0);
+          transform: scale(0);
+}
+
+.nav-link-con .list-group-item:hover::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 5px;
+  right: 5px;
+  bottom: 0;
+  height: 2px;
+  background-color: #00cccc;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+/* ============================== 
+#pages
+============================== */
+.page-header-con {
+  height: 13;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 13vh;
+  border-bottom: 5px solid #00cccc;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #000000;
+  color: #eee;
+}
+
+.page-header-con h1 {
+  font-weight: 1000;
+  font-size: 1.8em;
+  margin: 0;
+  color: #00cccc;
+}
+
+.page-header-con h5 {
+  font-weight: 100;
+  font-size: 1.2em;
+}
+
+.page-header-con img {
+  position: absolute;
+  left: 20px;
+  height: em;
+  width: 3.6em;
+  border-radius: 25%;
+  border: 3px solid #00cccc;
+  padding: 1px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .page-header-con {
+    height: 10vh;
+    font-size: 0.8em;
+  }
+  .page-header-con h5 {
+    font-weight: 300;
+    font-size: 1.1em;
+  }
+}
+
+.page-header-con .toggleIcon {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  font-size: 1.8em;
+  border-radius: 5px;
+  z-index: 999;
+  width: 40px;
+  color: #00cccc;
+  font-weight: 1000;
+}
+
+.drawer-hd {
+  background-color: #000000;
+  color: #00cccc;
+}
+
+.drawer-close-btn {
+  color: #00cccc;
+  border: none !important;
+}
+
+/* ============================== 
+#main layout
+============================== */
+.app-wrap {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* ============================== 
+#footer
+============================== */
+.footer-con {
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #000000;
+}
+
+/* ============================== 
+#personal info card
+============================== */
+.personal-info-card {
+  border-left: 2.5px solid #00cccc;
+  border-right: 2.5px solid #00cccc;
+}
+
+.personal-info-card h1 {
+  font-size: 1.1em;
+  font-weight: 1000;
+  white-space: nowrap;
+}
+
+.personal-info-card h2 {
+  font-size: 1em;
+}
+
+/* ============================== 
+#skill card
+============================== */
+.skill-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.skill-card img {
+  height: 3em;
+  width: 3em;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.skill-card h5 {
+  font-weight: 800;
+}
+/*# sourceMappingURL=custom.css.map */

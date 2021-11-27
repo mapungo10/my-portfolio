@@ -1,0 +1,60 @@
+/* ============================== 
+#pages
+============================== */
+.page-header-con {
+  @include flexCenter(13);
+  height: 13vh;
+  border-bottom: 5px solid $borderColor;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  flex-direction: column;
+  background-color: $bgColor;
+  color: #eee;
+  h1 {
+    font-weight: 1000;
+    font-size: 1.8em;
+    margin: 0;
+    color: $mainColor;
+  }
+  h5 {
+    font-weight: 100;
+    font-size: 1.2em;
+  }
+  img {
+    position: absolute;
+    left: 20px;
+    height: em;
+    width: 3.6em;
+    border-radius: 25%;
+    border: 3px solid $borderColor;
+    padding: 1px;
+    object-fit: contain;
+  }
+  @media (max-width: 768px) {
+    height: 10vh;
+    font-size: 0.8em;
+    h5 {
+      font-weight: 300;
+      font-size: 1.1em;
+    }
+  }
+  .toggleIcon {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    font-size: 1.8em;
+    border-radius: 5px;
+    z-index: 999;
+    width: 40px;
+    color: #00cccc;
+    font-weight: 1000;
+  }
+}
+.drawer-hd {
+  background-color: $bgColor;
+  color: $mainColor;
+}
+.drawer-close-btn {
+  color: $mainColor;
+  border: none !important;
+}
