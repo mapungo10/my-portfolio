@@ -37,7 +37,7 @@ const PageHeaderComponent = (props) => {
             </Drawer>
             {/* ============== page header =============== */}
             <div className="col-sm-12 page-header-con">
-                <Link to="/">
+                <Link to="/my-portfolio">
                     <img src={Logo} alt="" />
                 </Link>
                 <h1>

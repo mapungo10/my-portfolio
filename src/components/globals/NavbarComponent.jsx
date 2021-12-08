@@ -8,7 +8,7 @@ const NavbarComponent = () => {
     const [navLinks] = useState([
         {
             name: 'About me',
-            url: '/',
+            url: '/my-portfolio',
             icon: <BsFillHouseFill  className="link-icon" />,
         },
         {

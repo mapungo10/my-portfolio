@@ -25,7 +25,7 @@ const MainLayoutComponent = () => {
                                 {/* ============= contents ============== */}
                                 <div style={{height: '90vh'}}>
                                     <Routes>
-                                        <Route exact path='/' element={<AboutComponent />} />
+                                        <Route exact path='/my-portfolio' element={<AboutComponent />} />
                                         <Route exact path='/education-background' element={<Education />} />
                                         <Route exact path='/technical-skills' element={<SkillsComponent />} />
                                         <Route exact path='/my-portfolios' element={<PortfolioComponent />} />
