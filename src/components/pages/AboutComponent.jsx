@@ -39,7 +39,7 @@ const AboutComponent = () => {
                 <PageHeaderComponent title="Denice Minja" subTitle="Full-stack web developer" />
 
             {/* ============== content ================= */}
-                <div className="page-content-con">
+                <div className="page-content-con"> 
                     <div className="container-fluid">
                         <div className="row">
                             {/* ================= discription ================== */}

@@ -42,11 +42,11 @@ const PortfolioComponent = () => {
                 <PageHeaderComponent title="My Portfolios" subTitle="Samples of my works" />
 
             {/* ============== content ================= */}
-                <div className="page-content-con mt-4">
+                <div className="page-content-con">
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col-sm-12">
-                                <Carousel>
+                                <Carousel className=" mt-3">
                                     {
                                         wacamedPortfolio.map((portfolio, index) => (
                                             <div key={index}>

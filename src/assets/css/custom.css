@@ -16,13 +16,13 @@ body {
 }
 
 .custom-btn {
-  background-color: #00cccc;
+  background-color: #67AFC5;
   color: #fff;
   font-weight: bold;
 }
 
 .custom-btn:hover {
-  background-color: #00cccc;
+  background-color: #67AFC5;
 }
 
 .page-content-con {
@@ -35,7 +35,7 @@ body {
   font-size: 1.4em;
   margin-bottom: 10px;
   font-weight: bold;
-  color: #00cccc;
+  color: #67AFC5;
 }
 
 /* ============================== 
@@ -52,7 +52,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #000000;
+  background-color: #1B232E;
 }
 
 .dp-con img {
@@ -60,10 +60,9 @@ body {
   height: 14em;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 20%;
-  border: 2.5px solid #00cccc;
-  padding: 2px;
-  margin-top: 4em;
+  border-radius: 10%;
+  border: 0.5px solid #67AFC5;
+  margin-top: 3.2em;
 }
 
 @media (max-width: 768px) {
@@ -87,13 +86,13 @@ body {
 }
 
 .active {
-  background-color: #00cccc !important;
+  background-color: #67AFC5 !important;
   color: #fff !important;
 }
 
 .nav-link-con {
   height: 50vh;
-  background-color: #000000;
+  background-color: #1B232E;
 }
 
 .nav-link-con .nav-link {
@@ -101,8 +100,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   font-weight: bold;
-  color: #00cccc;
-  background-color: #000000;
+  color: #67AFC5;
+  background-color: #1B232E;
 }
 
 .nav-link-con .nav-link .link-icon {
@@ -114,11 +113,11 @@ body {
 }
 
 .nav-link-con .nav-link:hover {
-  color: #00cccc;
+  color: #67AFC5;
 }
 
 .nav-link-con .list-group-item {
-  background-color: #000000;
+  background-color: #1B232E;
 }
 
 .nav-link-con .list-group-item::before {
@@ -135,7 +134,7 @@ body {
   right: 5px;
   bottom: 0;
   height: 2px;
-  background-color: #00cccc;
+  background-color: #67AFC5;
   -webkit-transform: scale(1);
           transform: scale(1);
   -webkit-transition: all 0.5s;
@@ -157,14 +156,14 @@ body {
       -ms-flex-align: center;
           align-items: center;
   height: 13vh;
-  border-bottom: 5px solid #00cccc;
-  border-bottom-left-radius: 25px;
-  border-bottom-right-radius: 25px;
+  border-bottom: 5px solid #67AFC5;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #000000;
+  background-color: #1B232E;
   color: #eee;
 }
 
@@ -172,7 +171,7 @@ body {
   font-weight: 1000;
   font-size: 1.8em;
   margin: 0;
-  color: #00cccc;
+  color: #67AFC5;
 }
 
 .page-header-con h5 {
@@ -186,7 +185,6 @@ body {
   height: em;
   width: 3.6em;
   border-radius: 25%;
-  border: 3px solid #00cccc;
   padding: 1px;
   -o-object-fit: contain;
      object-fit: contain;
@@ -216,12 +214,12 @@ body {
 }
 
 .drawer-hd {
-  background-color: #000000;
-  color: #00cccc;
+  background-color: #1B232E;
+  color: #67AFC5;
 }
 
 .drawer-close-btn {
-  color: #00cccc;
+  color: #67AFC5;
   border: none !important;
 }
 
@@ -248,15 +246,15 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #000000;
+  background-color: #1B232E;
 }
 
 /* ============================== 
 #personal info card
 ============================== */
 .personal-info-card {
-  border-left: 2.5px solid #00cccc;
-  border-right: 2.5px solid #00cccc;
+  border-left: 2.5px solid #67AFC5;
+  border-right: 2.5px solid #67AFC5;
 }
 
 .personal-info-card h1 {

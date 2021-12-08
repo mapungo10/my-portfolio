@@ -28,7 +28,7 @@ function Education() {
                                     <div className="card-body">
                                         <h3 className="sec-hd">2014 – 2016</h3>
                                         <h3 style={{fontSize: "1em"}}>
-                                            Advanced Certificate of Secondary Education at Sanya Juu High School Kilimanjaro.
+                                            Advanced Certificate of Advanced Level Education at Sanya Juu High School Kilimanjaro.
                                         </h3>
                                     </div>
                                 </div>
@@ -39,7 +39,7 @@ function Education() {
                                     <div className="card-body">
                                         <h3 className="sec-hd">2010 – 2013</h3>
                                         <h3 style={{fontSize: "1em"}}>
-                                            Certificate of Secondary Education at Rasesa Secondary School Kilimanjaro.
+                                            Certificate of Ordinary Level Education at Rasesa Secondary School Kilimanjaro.
                                         </h3>
                                     </div>
                                 </div>
